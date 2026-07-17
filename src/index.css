@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+/* ── Design Tokens (CSS Custom Properties) ── */
+@theme {
+  --color-charcoal: #111111;
+  --color-page: #F8F8F6;
+  --color-surface: #FFFFFF;
+  --color-coral: #FF6B57;
+  --color-gold: #F5C96A;
+  --color-grey-900: #202124;
+  --color-grey-700: #5F6368;
+  --color-grey-500: #9AA0A6;
+  --color-grey-200: #E8EAED;
+  --color-success: #22C55E;
+  --color-error: #EF4444;
+
+  --font-heading: 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-stat: 'Space Grotesk', monospace;
+
+  --radius-btn: 14px;
+  --radius-card: 22px;
+  --radius-img: 24px;
+  --radius-input: 14px;
+  --radius-section: 32px;
+
+  --shadow-subtle: 0 10px 35px rgba(0, 0, 0, 0.05);
+  --shadow-nav: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* ── Base Styles ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-page);
+  color: var(--color-charcoal);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+/* ── Waveform Keyframes ── */
+@keyframes wave-bar {
+  0%, 100% { transform: scaleY(0.4); }
+  50% { transform: scaleY(1); }
+}
+
+@keyframes wave-flow {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes wave-morph {
+  0% { d: path("M0,20 Q25,5 50,20 T100,20"); }
+  50% { d: path("M0,20 Q25,35 50,20 T100,20"); }
+  100% { d: path("M0,20 Q25,5 50,20 T100,20"); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes count-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+@keyframes slide-in-right {
+  from { opacity: 0; transform: translateX(20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+/* ── Animation Utilities ── */
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out both;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.7s ease-out both;
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.5s ease-out both;
+}
+
+.animate-wave-bar {
+  animation: wave-bar 1.2s ease-in-out infinite;
+  transform-origin: bottom;
+}
+
+.animate-wave-flow {
+  animation: wave-flow 8s linear infinite;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s ease-in-out infinite;
+}
+
+/* ── Waveform Component ── */
+.waveform-bar {
+  display: inline-block;
+  width: 3px;
+  border-radius: 9999px;
+  background-color: var(--color-coral);
+  animation: wave-bar 1.2s ease-in-out infinite;
+  transform-origin: bottom;
+}
+
+.waveform-divider {
+  width: 100%;
+  height: 40px;
+  opacity: 0.12;
+  overflow: hidden;
+}
+
+/* ── Focus States (Accessibility) ── */
+:focus-visible {
+  outline: 3px solid var(--color-coral);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--color-coral);
+  outline-offset: 2px;
+}
+
+/* ── Reduced Motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* ── Scrollbar Styling ── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-page);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-grey-500);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-grey-700);
+}
+
+/* ── Selection ── */
+::selection {
+  background-color: var(--color-coral);
+  color: white;
+}

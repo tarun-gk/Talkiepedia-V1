@@ -1,0 +1,56 @@
+[
+  {
+    "id": "sumanvitha",
+    "name": "Sumanvitha KannamReddy",
+    "company": "Collins Aerospace",
+    "image": "https://talkiepedia.forgealumnus.com/image/sumanvitha.jpeg",
+    "linkedin": "https://www.linkedin.com/in/sumanvitha/",
+    "youtube": "https://www.youtube.com/watch?v=5oZ_GtRx6S0&t=151s",
+    "bio": "Aerospace professional at Collins Aerospace with expertise in avionics and systems engineering."
+  },
+  {
+    "id": "vijay",
+    "name": "Vijay Kumar Renikuntla",
+    "company": "Forge Alumnus",
+    "image": "https://talkiepedia.forgealumnus.com/image/vijay.jpeg",
+    "linkedin": "https://www.linkedin.com/in/vijay-kumar-renikuntla-4a3360135/",
+    "youtube": "https://www.youtube.com/@Talkiepedia",
+    "bio": "Co-founder at Forge Alumnus, driving innovation in professional development and career services."
+  },
+  {
+    "id": "bharat",
+    "name": "Bharat Chandra",
+    "company": "Microsoft",
+    "image": "https://talkiepedia.forgealumnus.com/image/bharat.jpeg",
+    "linkedin": "https://www.linkedin.com/in/bharat-chandra26/",
+    "youtube": "https://www.youtube.com/watch?v=hhckoit3fKk&t=125s",
+    "bio": "Technology professional at Microsoft with deep experience in enterprise solutions and career mentoring."
+  },
+  {
+    "id": "vishnu",
+    "name": "Vishnu Das",
+    "company": "Microsoft",
+    "image": "https://talkiepedia.forgealumnus.com/image/Vishnu_das.jpeg",
+    "linkedin": "https://www.linkedin.com/in/vishnudaskunjibettu/",
+    "youtube": "https://www.youtube.com/@Talkiepedia",
+    "bio": "Microsoft professional sharing insights on tech career growth and corporate readiness."
+  },
+  {
+    "id": "harish",
+    "name": "Harish Kotra",
+    "company": "Gaia",
+    "image": "https://talkiepedia.forgealumnus.com/image/Harish.jpeg",
+    "linkedin": "https://www.linkedin.com/in/harishkotra/",
+    "youtube": "https://www.youtube.com/@Talkiepedia",
+    "bio": "Tech innovator at Gaia, passionate about building products that make a difference."
+  },
+  {
+    "id": "kiran",
+    "name": "Kiran Kumar",
+    "company": "Forge Alumnus",
+    "image": "https://talkiepedia.forgealumnus.com/image/kiran.jpg",
+    "linkedin": "https://www.linkedin.com/in/kirankumar-perka-35525821/",
+    "youtube": "https://www.youtube.com/@Talkiepedia",
+    "bio": "Leadership figure at Forge Alumnus with extensive experience in corporate strategy and mentoring."
+  }
+]

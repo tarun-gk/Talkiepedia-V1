@@ -1,0 +1,107 @@
+{
+  "episodes": {
+    "aerospace": {
+      "segments": [
+        {
+          "timestamp": "00:02:30",
+          "seconds": 150,
+          "speaker": "Sumanvitha KannamReddy",
+          "company": "Collins Aerospace",
+          "text": "Aerospace engineering is not just about building aircraft. It encompasses avionics, systems integration, satellite communications, and defense technologies. The field is evolving rapidly with the integration of AI and autonomous systems."
+        },
+        {
+          "timestamp": "00:08:15",
+          "seconds": 495,
+          "speaker": "Sumanvitha KannamReddy",
+          "company": "Collins Aerospace",
+          "text": "When I joined Collins Aerospace, I realized that the key differentiator was not just your technical skills but your ability to work across teams. You collaborate with mechanical engineers, software developers, quality assurance teams, and program managers on a daily basis."
+        },
+        {
+          "timestamp": "00:15:42",
+          "seconds": 942,
+          "speaker": "Sumanvitha KannamReddy",
+          "company": "Collins Aerospace",
+          "text": "For anyone looking to break into aerospace, I would recommend getting certifications like AS9100 for quality management. Also, internships and co-op programs are incredibly valuable. Companies like Collins, Boeing, and Lockheed Martin actively recruit from these programs."
+        },
+        {
+          "timestamp": "00:23:10",
+          "seconds": 1390,
+          "speaker": "Sumanvitha KannamReddy",
+          "company": "Collins Aerospace",
+          "text": "The aerospace industry is one of the most stable career paths. Even during economic downturns, defense contracts and government projects keep the industry moving. Plus, the pay scale is competitive and the work is genuinely exciting."
+        },
+        {
+          "timestamp": "00:35:00",
+          "seconds": 2100,
+          "speaker": "Sumanvitha KannamReddy",
+          "company": "Collins Aerospace",
+          "text": "Continuous learning is non-negotiable in aerospace. Technologies evolve quickly — from legacy systems to modern digital avionics. If you stop learning, you fall behind. I dedicate at least two hours a week to learning new technologies and industry trends."
+        },
+        {
+          "timestamp": "01:05:20",
+          "seconds": 3920,
+          "speaker": "Sumanvitha KannamReddy",
+          "company": "Collins Aerospace",
+          "text": "Women in aerospace face unique challenges, but the industry is actively working to be more inclusive. Collins Aerospace has employee resource groups and mentorship programs specifically for women engineers. My advice: find mentors, build your network, and never underestimate your abilities."
+        }
+      ]
+    },
+    "mnc-career": {
+      "segments": [
+        {
+          "timestamp": "00:01:45",
+          "seconds": 105,
+          "speaker": "Bharat Chandra",
+          "company": "Microsoft",
+          "text": "Getting into a big MNC like Microsoft starts long before the interview. It begins with building a strong LinkedIn profile, contributing to open-source projects, and demonstrating your problem-solving abilities through real projects."
+        },
+        {
+          "timestamp": "00:06:30",
+          "seconds": 390,
+          "speaker": "Bharat Chandra",
+          "company": "Microsoft",
+          "text": "The interview process at Microsoft is rigorous but fair. They focus on data structures, algorithms, system design, and behavioral questions. But what truly sets candidates apart is their ability to communicate their thought process clearly."
+        },
+        {
+          "timestamp": "00:12:00",
+          "seconds": 720,
+          "speaker": "Bharat Chandra",
+          "company": "Microsoft",
+          "text": "Networking is absolutely critical. I got my referral through a connection I made at a tech meetup. Attend conferences, join tech communities, participate in hackathons. These are not just resume boosters — they genuinely open doors."
+        },
+        {
+          "timestamp": "00:18:45",
+          "seconds": 1125,
+          "speaker": "Bharat Chandra",
+          "company": "Microsoft",
+          "text": "Once you're inside an MNC, career growth depends on visibility. Take on cross-functional projects, present at internal tech talks, mentor junior engineers. It's not just about writing code — it's about making an impact that leadership can see."
+        },
+        {
+          "timestamp": "00:24:00",
+          "seconds": 1440,
+          "speaker": "Bharat Chandra",
+          "company": "Microsoft",
+          "text": "The biggest mistake I see candidates make is focusing only on technical skills. MNCs value soft skills equally — communication, teamwork, adaptability, and leadership. Develop these alongside your coding abilities and you'll stand out."
+        }
+      ]
+    },
+    "corporate-success": {
+      "segments": [
+        {
+          "timestamp": "00:00:02",
+          "seconds": 2,
+          "speaker": "Dhananjay Dubey",
+          "company": "Forge Alumnus",
+          "text": "Welcome to Talkiepedia — where voices lead. In our upcoming episodes, we will be diving deep into the world of corporate success with industry leaders who have navigated the path from aspiring professionals to influential executives."
+        },
+        {
+          "timestamp": "00:00:05",
+          "seconds": 5,
+          "speaker": "Dhananjay Dubey",
+          "company": "Forge Alumnus",
+          "text": "Corporate success is not a destination — it's a journey of continuous growth, meaningful relationships, and purposeful leadership. Stay tuned as we unpack the stories behind the success."
+        }
+      ]
+    }
+  }
+}

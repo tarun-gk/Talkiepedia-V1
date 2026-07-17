@@ -1,0 +1,59 @@
+[
+  {
+    "id": "aerospace",
+    "title": "The World of Aerospace",
+    "guest": "Sumanvitha KannamReddy",
+    "company": "Collins Aerospace",
+    "duration": "135m",
+    "durationSeconds": 8100,
+    "date": "January 2025",
+    "category": "Aerospace",
+    "youtubeId": "5oZ_GtRx6S0",
+    "thumbnail": "https://talkiepedia.forgealumnus.com/image/collinionsaeroscope.png",
+    "description": "Dive deep into the world of aerospace engineering with Sumanvitha from Collins Aerospace. Learn about career paths, industry trends, and what it takes to succeed in one of the most exciting sectors in technology.",
+    "keyTakeaways": [
+      "Aerospace engineering offers diverse career paths from avionics to systems integration",
+      "Continuous learning and certifications are crucial for career advancement",
+      "Cross-functional collaboration is key to success in large aerospace organizations"
+    ],
+    "tldr": "Sumanvitha shares her journey at Collins Aerospace, covering the breadth of aerospace careers, the importance of continuous learning, and how to navigate large corporate environments in the aerospace sector."
+  },
+  {
+    "id": "mnc-career",
+    "title": "Dream Your Career Into a Big MNC",
+    "guest": "Bharat Chandra",
+    "company": "Microsoft",
+    "duration": "28m 39s",
+    "durationSeconds": 1719,
+    "date": "December 2024",
+    "category": "Technology",
+    "youtubeId": "hhckoit3fKk",
+    "thumbnail": "https://talkiepedia.forgealumnus.com/image/microsoft.png",
+    "description": "Bharat Chandra from Microsoft shares actionable strategies for landing your dream role at a multinational corporation. From resume building to interview preparation, this episode covers it all.",
+    "keyTakeaways": [
+      "Building a strong personal brand on LinkedIn can open doors at top MNCs",
+      "Technical skills combined with soft skills create the ideal MNC candidate",
+      "Networking and mentorship play a critical role in career advancement"
+    ],
+    "tldr": "Bharat from Microsoft reveals the insider strategies for breaking into big MNCs — from crafting standout resumes to acing technical interviews and building the right professional network."
+  },
+  {
+    "id": "corporate-success",
+    "title": "Navigating Corporate Success",
+    "guest": "Dhananjay Dubey",
+    "company": "Forge Alumnus",
+    "duration": "10s",
+    "durationSeconds": 10,
+    "date": "October 2024",
+    "category": "Leadership",
+    "youtubeId": "rsG-bZZ4vCs",
+    "thumbnail": "https://talkiepedia.forgealumnus.com/image/trailer.png",
+    "description": "A sneak peek into the world of corporate success with Dhananjay Dubey, founder of Forge Alumnus. This trailer sets the stage for upcoming deep-dive episodes on leadership and entrepreneurship.",
+    "keyTakeaways": [
+      "Corporate success requires a blend of vision and execution",
+      "Building meaningful professional relationships is foundational",
+      "Adaptability and resilience separate leaders from followers"
+    ],
+    "tldr": "Dhananjay introduces the vision behind Talkiepedia and previews upcoming conversations about navigating the corporate world with confidence and purpose."
+  }
+]
