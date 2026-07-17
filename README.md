@@ -17,6 +17,10 @@
   <img src="https://img.shields.io/badge/Deployed-Vercel-000?logo=vercel&logoColor=white" alt="Vercel" />
 </p>
 
+<p align="center">
+  <strong><a href="https://talkiepedia.vercel.app/">🚀 View Live Demo</a></strong>
+</p>
+
 ---
 
 ## ✨ Overview
