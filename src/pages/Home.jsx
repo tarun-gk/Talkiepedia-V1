@@ -84,8 +84,8 @@ export default function Home() {
               <X size={28} strokeWidth={2} />
             </button>
             <iframe
-              src="https://www.youtube.com/embed/hhckoit3fKk?autoplay=1"
-              title="Talkiepedia Trailer"
+              src="https://www.youtube.com/embed/rsG-bZZ4vCs?autoplay=1"
+              title="Navigating Corporate Success"
               className="w-full h-full rounded-[var(--radius-card)]"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
