@@ -25,10 +25,13 @@ export default function EpisodeCard({ episode, featured = false }) {
             loading="lazy"
           />
           {/* Play overlay */}
-          <div className="absolute inset-0 bg-charcoal/0 group-hover:bg-charcoal/20 transition-colors duration-250 flex items-center justify-center">
-            <div className="w-14 h-14 rounded-full bg-charcoal/80 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-250 scale-90 group-hover:scale-100">
-              <Play size={22} fill="white" strokeWidth={0} />
-            </div>
+          <div className="absolute inset-0 bg-charcoal/0 group-hover:bg-charcoal/20 transition-colors duration-250 flex items-center justify-center pointer-events-none">
+            <button 
+              className="w-14 h-14 rounded-full bg-charcoal/80 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-250 scale-90 group-hover:scale-100 cursor-pointer border-none pointer-events-auto hover:bg-coral hover:scale-110"
+              aria-label="Play episode"
+            >
+              <Play size={22} fill="white" strokeWidth={0} className="ml-1" />
+            </button>
           </div>
           {/* Category tag */}
           {episode.category && (

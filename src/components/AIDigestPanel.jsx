@@ -26,10 +26,10 @@ export default function AIDigestPanel({ episode }) {
         <div>
           <div className="flex items-center gap-2 mb-2">
             <BookOpen size={16} className="text-coral" strokeWidth={2} />
-            <h4 className="font-heading font-bold text-sm text-charcoal">TL;DR</h4>
+            <h4 className="font-heading font-bold text-sm text-charcoal">Executive Summary</h4>
           </div>
           <p className="text-grey-700 text-sm leading-relaxed">
-            {episode.tldr}
+            {episode.tldr || "AI Digest currently unavailable."}
           </p>
         </div>
 
@@ -52,30 +52,27 @@ export default function AIDigestPanel({ episode }) {
         </div>
 
         {/* Timestamp Chips */}
-        <div>
-          <div className="flex items-center gap-2 mb-3">
-            <Clock size={16} className="text-coral" strokeWidth={2} />
-            <h4 className="font-heading font-bold text-sm text-charcoal">Jump to Key Moments</h4>
+        {episode.keyMoments && episode.keyMoments.length > 0 && (
+          <div>
+            <div className="flex items-center gap-2 mb-3">
+              <Clock size={16} className="text-coral" strokeWidth={2} />
+              <h4 className="font-heading font-bold text-sm text-charcoal">Jump to Key Moments</h4>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {episode.keyMoments.map((chip) => (
+                <button
+                  key={chip.time}
+                  onClick={() => handleTimestampClick(chip.seconds)}
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-coral/8 hover:bg-coral/15 text-coral text-xs font-medium rounded-full transition-colors duration-250 cursor-pointer border-none text-left"
+                >
+                  <Clock size={11} strokeWidth={2} className="shrink-0" />
+                  <span className="shrink-0">{chip.time}</span>
+                  <span className="text-grey-700 ml-0.5 line-clamp-1">{chip.label}</span>
+                </button>
+              ))}
+            </div>
           </div>
-          <div className="flex flex-wrap gap-2">
-            {[
-              { label: 'Career paths in aerospace', time: '02:30', seconds: 150 },
-              { label: 'Cross-team collaboration', time: '08:15', seconds: 495 },
-              { label: 'Getting certifications', time: '15:42', seconds: 942 },
-              { label: 'Industry stability', time: '23:10', seconds: 1390 },
-            ].map((chip) => (
-              <button
-                key={chip.time}
-                onClick={() => handleTimestampClick(chip.seconds)}
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-coral/8 hover:bg-coral/15 text-coral text-xs font-medium rounded-full transition-colors duration-250 cursor-pointer border-none"
-              >
-                <Clock size={11} strokeWidth={2} />
-                {chip.time}
-                <span className="text-grey-700 ml-0.5">{chip.label}</span>
-              </button>
-            ))}
-          </div>
-        </div>
+        )}
       </div>
     </div>
   )

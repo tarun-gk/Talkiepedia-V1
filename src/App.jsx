@@ -11,6 +11,8 @@ import Guests from './pages/Guests'
 import Gallery from './pages/Gallery'
 import FAQ from './pages/FAQ'
 import Contact from './pages/Contact'
+import { AudioPlayerProvider } from './context/AudioPlayerContext'
+import GlobalAudioPlayer from './components/GlobalAudioPlayer'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -45,8 +47,10 @@ function AppLayout() {
 
 export default function App() {
   return (
-    <Router>
-      <AppLayout />
-    </Router>
+    <AudioPlayerProvider>
+      <Router>
+        <AppLayout />
+      </Router>
+    </AudioPlayerProvider>
   )
 }

@@ -16,7 +16,13 @@
       "Continuous learning and certifications are crucial for career advancement",
       "Cross-functional collaboration is key to success in large aerospace organizations"
     ],
-    "tldr": "Sumanvitha shares her journey at Collins Aerospace, covering the breadth of aerospace careers, the importance of continuous learning, and how to navigate large corporate environments in the aerospace sector."
+    "tldr": "Sumanvitha shares her journey at Collins Aerospace, covering the breadth of aerospace careers, the importance of continuous learning, and how to navigate large corporate environments in the aerospace sector.",
+    "keyMoments": [
+      { "label": "Career paths in aerospace", "time": "02:30", "seconds": 150 },
+      { "label": "Cross-team collaboration", "time": "08:15", "seconds": 495 },
+      { "label": "Getting certifications", "time": "15:42", "seconds": 942 },
+      { "label": "Industry stability", "time": "23:10", "seconds": 1390 }
+    ]
   },
   {
     "id": "mnc-career",
@@ -35,7 +41,13 @@
       "Technical skills combined with soft skills create the ideal MNC candidate",
       "Networking and mentorship play a critical role in career advancement"
     ],
-    "tldr": "Bharat from Microsoft reveals the insider strategies for breaking into big MNCs — from crafting standout resumes to acing technical interviews and building the right professional network."
+    "tldr": "Bharat from Microsoft reveals the insider strategies for breaking into big MNCs — from crafting standout resumes to acing technical interviews and building the right professional network.",
+    "keyMoments": [
+      { "label": "Resume Building Secrets", "time": "04:20", "seconds": 260 },
+      { "label": "Nailing the Technical Interview", "time": "12:15", "seconds": 735 },
+      { "label": "Power of Networking", "time": "18:40", "seconds": 1120 },
+      { "label": "First 90 Days at an MNC", "time": "24:05", "seconds": 1445 }
+    ]
   },
   {
     "id": "corporate-success",
@@ -54,6 +66,10 @@
       "Building meaningful professional relationships is foundational",
       "Adaptability and resilience separate leaders from followers"
     ],
-    "tldr": "Dhananjay introduces the vision behind Talkiepedia and previews upcoming conversations about navigating the corporate world with confidence and purpose."
+    "tldr": "Dhananjay introduces the vision behind Talkiepedia and previews upcoming conversations about navigating the corporate world with confidence and purpose.",
+    "keyMoments": [
+      { "label": "The Origin of Talkiepedia", "time": "00:02", "seconds": 2 },
+      { "label": "What to Expect", "time": "00:07", "seconds": 7 }
+    ]
   }
 ]
