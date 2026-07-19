@@ -192,8 +192,8 @@ npx vercel --prod
 
 | Home Hero | Episodes | Ask AI |
 |---|---|---|
-| Dark cinematic hero with waveform | Episode cards with rich metadata | AI chatbot with avatar + citations |
-
+| Dark cinematic hero with waveform | Episode cards with rich metadata | AI chatbot with avatar + citations
+|
 ---
 
 ## 👥 Team
