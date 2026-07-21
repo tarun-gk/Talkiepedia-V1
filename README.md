@@ -32,7 +32,6 @@ This repository contains the **complete redesign** of the Talkiepedia web platfo
 ---
 
 ## 🎯 Key Features
-
 | Feature | Description |
 |---|---|
 | 🎙️ **Podcast Hub** | Browse episodes with rich metadata — guest info, duration, category tags, and thumbnails |
